@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pinkbackground"
+    tools:context=".homepage">
+
+    <GridView
+        android:id="@+id/grid_view_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="150dp"
+        android:verticalSpacing="15dp"
+        android:horizontalSpacing="15dp"
+        android:numColumns="auto_fit"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical" >-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--        </RelativeLayout>-->
+
+<!--        <GridLayout-->
+<!--            android:columnCount="2"-->
+<!--            android:rowCount="4"-->
+<!--            android:alignmentMode="alignMargins"-->
+<!--            android:columnOrderPreserved="false"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/shorts"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_columnWeight="1"-->
+<!--                android:layout_rowWeight="1"-->
+<!--                app:cardElevation="6dp"-->
+<!--                app:cardCornerRadius="20dp"-->
+<!--                android:layout_margin="12dp">-->
+
+<!--                <LinearLayout-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="16dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent">-->
+
+<!--                    <ImageView-->
+<!--                        android:src="@drawable/shorts"-->
+<!--                        android:layout_width="120dp"-->
+<!--                        android:layout_height="120dp"/>-->
+<!--                    <TextView-->
+<!--                        android:layout_marginTop="12dp"-->
+<!--                        android:textSize="17sp"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:text="@string/shorts"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        />-->
+
+<!--                </LinearLayout>-->
+
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/Laces"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_columnWeight="1"-->
+<!--                android:layout_rowWeight="1"-->
+<!--                app:cardElevation="6dp"-->
+<!--                app:cardCornerRadius="20dp"-->
+<!--                android:layout_margin="12dp">-->
+
+<!--                <LinearLayout-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="16dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent">-->
+
+<!--                    <ImageView-->
+<!--                        android:src="@drawable/laces"-->
+<!--                        android:layout_width="120dp"-->
+<!--                        android:layout_height="120dp"/>-->
+<!--                    <TextView-->
+<!--                        android:layout_marginTop="12dp"-->
+<!--                        android:textSize="17sp"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:text="Laces"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        />-->
+
+<!--                </LinearLayout>-->
+
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/Traditional"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_columnWeight="1"-->
+<!--                android:layout_rowWeight="1"-->
+<!--                app:cardElevation="6dp"-->
+<!--                app:cardCornerRadius="20dp"-->
+<!--                android:layout_margin="12dp">-->
+
+<!--                <LinearLayout-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="16dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent">-->
+
+<!--                    <ImageView-->
+<!--                        android:src="@drawable/traditional"-->
+<!--                        android:layout_width="120dp"-->
+<!--                        android:layout_height="120dp"/>-->
+<!--                    <TextView-->
+<!--                        android:layout_marginTop="12dp"-->
+<!--                        android:textSize="17sp"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:text="Traditional"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        />-->
+
+<!--                </LinearLayout>-->
+
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/Formal"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_columnWeight="1"-->
+<!--                android:layout_rowWeight="1"-->
+<!--                app:cardElevation="6dp"-->
+<!--                app:cardCornerRadius="20dp"-->
+<!--                android:layout_margin="12dp">-->
+
+<!--                <LinearLayout-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="16dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent">-->
+
+<!--                    <ImageView-->
+<!--                        android:src="@drawable/formal"-->
+<!--                        android:layout_width="120dp"-->
+<!--                        android:layout_height="120dp"/>-->
+<!--                    <TextView-->
+<!--                        android:layout_marginTop="12dp"-->
+<!--                        android:textSize="17sp"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:text="Formal"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        />-->
+
+<!--                </LinearLayout>-->
+
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/Ballgown"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_columnWeight="1"-->
+<!--                android:layout_rowWeight="1"-->
+<!--                app:cardElevation="6dp"-->
+<!--                app:cardCornerRadius="20dp"-->
+<!--                android:layout_margin="12dp">-->
+
+<!--                <LinearLayout-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="16dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent">-->
+
+<!--                    <ImageView-->
+<!--                        android:src="@drawable/ballgowns"-->
+<!--                        android:layout_width="120dp"-->
+<!--                        android:layout_height="120dp"/>-->
+<!--                    <TextView-->
+<!--                        android:layout_marginTop="12dp"-->
+<!--                        android:textSize="17sp"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:text="Ball gowns"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        />-->
+
+<!--                </LinearLayout>-->
+
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/Modern"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_columnWeight="1"-->
+<!--                android:layout_rowWeight="1"-->
+<!--                app:cardElevation="6dp"-->
+<!--                app:cardCornerRadius="20dp"-->
+<!--                android:layout_margin="12dp">-->
+
+<!--                <LinearLayout-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="16dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent">-->
+
+<!--                    <ImageView-->
+<!--                        android:src="@drawable/modern"-->
+<!--                        android:layout_width="150dp"-->
+<!--                        android:layout_height="150dp"/>-->
+<!--                    <TextView-->
+<!--                        android:layout_marginTop="12dp"-->
+<!--                        android:textSize="17sp"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:text="Modern"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        />-->
+
+<!--                </LinearLayout>-->
+
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/Longsleeve"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_columnWeight="1"-->
+<!--                android:layout_rowWeight="1"-->
+<!--                app:cardElevation="6dp"-->
+<!--                app:cardCornerRadius="20dp"-->
+<!--                android:layout_margin="12dp">-->
+
+<!--                <LinearLayout-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="16dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent">-->
+
+<!--                    <ImageView-->
+<!--                        android:src="@drawable/longsleeve"-->
+<!--                        android:layout_width="120dp"-->
+<!--                        android:layout_height="120dp"/>-->
+<!--                    <TextView-->
+<!--                        android:layout_marginTop="12dp"-->
+<!--                        android:textSize="17sp"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:text="Long Sleeve"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        />-->
+
+<!--                </LinearLayout>-->
+
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/Prom"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_columnWeight="1"-->
+<!--                android:layout_rowWeight="1"-->
+<!--                app:cardElevation="6dp"-->
+<!--                app:cardCornerRadius="20dp"-->
+<!--                android:layout_margin="12dp">-->
+
+<!--                <LinearLayout-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="16dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent">-->
+
+<!--                    <ImageView-->
+<!--                        android:src="@drawable/prom"-->
+<!--                        android:layout_width="130dp"-->
+<!--                        android:layout_height="130dp"/>-->
+<!--                    <TextView-->
+<!--                        android:layout_marginTop="12dp"-->
+<!--                        android:textSize="17sp"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:text="Prom"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        />-->
+
+<!--                </LinearLayout>-->
+
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+
+
+
+<!--        </GridLayout>-->
+
+<!--    </LinearLayout>-->
+
+
